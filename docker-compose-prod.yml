@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  frontend:
+    container_name: nuxt-strapi-frontend
+    image: xandra767/remix-front:latest
+    ports:
+      - 6010:3000
+    restart: unless-stopped
+    networks:
+      - remix-backend_nuxt-strapi
+
+networks:
+  remix-backend_nuxt-strapi:
+    external: true

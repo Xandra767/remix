@@ -1,13 +1,5 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/styles/main.less'],
-  modules: [
-    [
-      '@nuxtjs/google-fonts', {
-        families: {
-          Montserrat: true,
-        }
-    }]
-  ],
+  modules: ['nuxt-graphql-client'],
+  debug: true,
 })

@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-SemiBoldItalic.eot');
+  src: local('TT Interfaces SemiBold Italic'), local('TTInterfaces-SemiBoldItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBoldItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-MediumItalic.eot');
+  src: local('TT Interfaces Medium Italic'), local('TTInterfaces-MediumItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-MediumItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-MediumItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-BoldItalic.eot');
+  src: local('TT Interfaces Bold Italic'), local('TTInterfaces-BoldItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-BoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-BoldItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Italic.eot');
+  src: local('TT Interfaces Italic'), local('TTInterfaces-Italic'),
+      url('../../assets/fonts/TT/TTInterfaces-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Italic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Italic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-SemiBold.eot');
+  src: local('TT Interfaces SemiBold'), local('TTInterfaces-SemiBold'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBold.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBold.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Medium.eot');
+  src: local('TT Interfaces Medium'), local('TTInterfaces-Medium'),
+      url('../../assets/fonts/TT/TTInterfaces-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Medium.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Medium.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-ExtraBold.eot');
+  src: local('TT Interfaces ExtraBold'), local('TTInterfaces-ExtraBold'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBold.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBold.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-BlackItalic.eot');
+  src: local('TT Interfaces Black Italic'), local('TTInterfaces-BlackItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-BlackItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-BlackItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Bold.eot');
+  src: local('TT Interfaces Bold'), local('TTInterfaces-Bold'),
+      url('../../assets/fonts/TT/TTInterfaces-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Bold.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Bold.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Light.eot');
+  src: local('TT Interfaces Light'), local('TTInterfaces-Light'),
+      url('../../assets/fonts/TT/TTInterfaces-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Light.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Light.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-ExtraBoldItalic.eot');
+  src: local('TT Interfaces ExtraBold Italic'), local('TTInterfaces-ExtraBoldItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBoldItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Regular.eot');
+  src: local('TT Interfaces Regular'), local('TTInterfaces-Regular'),
+      url('../../assets/fonts/TT/TTInterfaces-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Regular.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Regular.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Black.eot');
+  src: local('TT Interfaces Black'), local('TTInterfaces-Black'),
+      url('../../assets/fonts/TT/TTInterfaces-Black.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Black.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Black.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-ThinItalic.eot');
+  src: local('TT Interfaces Thin Italic'), local('TTInterfaces-ThinItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-ThinItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-ThinItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-LightItalic.eot');
+  src: local('TT Interfaces Light Italic'), local('TTInterfaces-LightItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-LightItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-LightItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-ExtraLightItalic.eot');
+  src: local('TT Interfaces ExtLt Ita'), local('TTInterfaces-ExtraLightItalic'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLightItalic.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLightItalic.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-Thin.eot');
+  src: local('TT Interfaces Thin'), local('TTInterfaces-Thin'),
+      url('../../assets/fonts/TT/TTInterfaces-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-Thin.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-Thin.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('../../assets/fonts/TT/TTInterfaces-ExtraLight.eot');
+  src: local('TT Interfaces Extra Light'), local('TTInterfaces-ExtraLight'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLight.woff2') format('woff2'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLight.woff') format('woff'),
+      url('../../assets/fonts/TT/TTInterfaces-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Try Tosh';
+  src: url('../../assets/fonts/Try_Tosh/TRY_Tosh A.eot');
+  src: local('TRY Tosh A'), local('TRY_Tosh A'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh A.woff2') format('woff2'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh A.woff') format('woff'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh A.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Try Tosh';
+  src: url('../../assets/fonts/Try_Tosh/TRY_Tosh B.eot');
+  src: local('TRY Tosh B'), local('TRY_Tosh B'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh B.woff2') format('woff2'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh B.woff') format('woff'),
+      url('../../assets/fonts/Try_Tosh/TRY_Tosh B.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

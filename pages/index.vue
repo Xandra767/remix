@@ -505,7 +505,7 @@
 import PopupComponent from '../components/Popup.vue'; // Импортируйте компонент
 
 export default {
-  name: 'index',
+  name: 'home',
   components: {
     PopupComponent // Зарегистрируйте компонент для использования
   },

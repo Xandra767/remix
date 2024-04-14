@@ -83,7 +83,7 @@ export default {
     // Ждем, пока весь контент загрузится
     window.addEventListener("load", function () {
       // Скрываем прелоадер после загрузки контента
-      document.querySelector("#app").style.display = "block";
+      document.querySelector("#__nuxt").style.display = "block";
       setTimeout(() => {
         document.querySelector(".preloader").classList.add('hide');
       }, 200);

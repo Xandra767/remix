@@ -1,12 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-#app{
-	display: none;
-}
-#page{
-	overflow: hidden;
-}
 /* Стили для прелоадера */
 .preloader {
   position: fixed;
@@ -153,6 +147,10 @@ li {
 }
 html {
 	font-size: 16px;
+	overflow: hidden;
+	&.show{
+		overflow: unset;
+	}
 }
 body {
 	font-family: @font0;

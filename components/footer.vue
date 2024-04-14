@@ -25,7 +25,7 @@
               </a>
             </div>
             <div class="footer__menu-item">
-              <h6 class="footer__menu-title">Кейсы</h6>
+              <h6 class="footer__menu-title">Проекты</h6>
               <a href="#" class="footer__menu-link">
                 FMCG
               </a>
@@ -115,7 +115,7 @@
             </p>
           </div>
           <div class="footer__bottom-conf">
-            <a href="/">
+            <a href="/privacy">
               Политика конфиденциальности <br>
               и обработки персональных данных
             </a>

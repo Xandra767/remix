@@ -325,7 +325,6 @@ html.scroll-none{
   overflow: hidden;
   position: relative;
   width: 100%;
-  max-width: 786px;
   height: auto;
   display: flex;
   margin: 0 auto;
@@ -2546,5 +2545,27 @@ html.scroll-none{
     }
   }
 }
+
+.conf {
+  padding-top: 150px;
+  .container{
+    .breakpoint(@media-small, {
+      max-width: none;
+    });
+  }
+    // .conf__title
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+  // .conf__text
+
+  pre {
+    text-align: justify;
+    white-space: pre-wrap;
+  }
+}
+
 
 @import 'media';

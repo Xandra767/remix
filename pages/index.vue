@@ -1,108 +1,104 @@
 <template>
   <section class="one">
     <video class="one__video" src="../assets/video/one__video.mp4" muted autoplay loop></video>
-    <div class="container">
-      <div class="container__elem container__elem--12">
-        <div class="one__inner">
-          <div class="carousel-container">
-            <div class="carousel-track">
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-1.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-2.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-3.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-4.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-5.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-6.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-7.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-8.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-9.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-10.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-11.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-12.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-13.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-14.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-15.png" alt="img">
-              </div>
-            </div>
-            <div class="carousel-track">
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-1.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-2.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-3.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-4.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-5.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-6.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-7.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-8.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-9.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-10.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-11.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-12.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-13.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-14.png" alt="img">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/img/one-partner-15.png" alt="img">
-              </div>
-            </div>
+    <div class="one__inner">
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-1.png" alt="img">
           </div>
-
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-2.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-3.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-4.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-5.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-6.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-7.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-8.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-9.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-10.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-11.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-12.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-13.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-14.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-15.png" alt="img">
+          </div>
+        </div>
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-1.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-2.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-3.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-4.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-5.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-6.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-7.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-8.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-9.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-10.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-11.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-12.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-13.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-14.png" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/one-partner-15.png" alt="img">
+          </div>
         </div>
       </div>
+
     </div>
   </section>
   <section class="two">

@@ -1,4 +1,7 @@
 <template>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
   <div class="header__wrap">
     <header class="header">
       <div class="container">
@@ -11,7 +14,7 @@
             <nav class="header__menu">
               <ul>
                 <li><a href="/">Главная</a></li>
-                <li><a href="#">Кейсы</a></li>
+                <li><a href="#">Проекты</a></li>
                 <li><a href="/team">Команда</a></li>
                 <li><a href="/contacts">Контакты</a></li>
                 <li><a href="#">Консультации</a></li>
@@ -78,18 +81,20 @@ export default {
       burger.classList.toggle('active');
       html.classList.toggle('scroll-none');
     })
-
-    
-    // Ждем, пока весь контент загрузится
-    window.addEventListener("load", function () {
-      // Скрываем прелоадер после загрузки контента
-      document.querySelector("#__nuxt").style.display = "block";
+    function showPage(){
       setTimeout(() => {
+        document.querySelector("html").classList.add('show');
         document.querySelector(".preloader").classList.add('hide');
-      }, 200);
+      }, 400);
       setTimeout(() => {
         document.querySelector(".preloader").style.display = "none";
-      }, 600);
+      }, 800);
+    }
+    setTimeout(() => {
+      showPage();
+    }, 2000);
+    window.addEventListener("load", (event) => {
+      showPage();
     });
 
   }

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['nuxt-graphql-client'],
+  modules: ["nuxt-graphql-client"],
   debug: true,
-})
+});

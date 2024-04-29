@@ -112,7 +112,7 @@ export default {
       formData.append("file", this.$refs.fileInput.files[0]);
 
       try {
-        await fetch("https://remixmedia.ru/apiExpr/sendContactForm", {
+        await fetch("https://remixmedia.ru/sendContactForm", {
           method: "POST",
           body: formData,
         });

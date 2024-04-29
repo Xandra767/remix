@@ -613,7 +613,7 @@ export default {
         document.querySelector("#contact-client-phone").value
       );
       try {
-        await fetch("http://localhost:1234/api/sendContactForm", {
+        await fetch("http://89.111.172.240:1234/api/sendContactForm", {
           method: "POST",
           body: formData,
         });

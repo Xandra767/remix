@@ -80,8 +80,8 @@
       <p>Нажимая на кнопку вы соглашаетесь с</p>
       <a href="/conf">
         Политикой конфиденциальности <br />
-        и обработки персональных данных</a
-      >
+        и обработки персональных данных
+      </a>
     </div>
   </form>
 </template>
@@ -112,7 +112,7 @@ export default {
       formData.append("file", this.$refs.fileInput.files[0]);
 
       try {
-        await fetch("http://localhost:1234/api/sendContactForm", {
+        await fetch("http://89.111.172.240:1234/api/sendContactForm", {
           method: "POST",
           body: formData,
         });

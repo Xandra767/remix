@@ -613,7 +613,7 @@ export default {
         document.querySelector("#contact-client-phone").value
       );
       try {
-        await fetch("https://remixmedia.ru/apiExpr/sendContactForm", {
+        await fetch("https://remixmedia.ru/sendContactForm", {
           method: "POST",
           body: formData,
         });

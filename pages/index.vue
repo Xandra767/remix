@@ -147,24 +147,47 @@
             <p class="two__bottom-text">
               ОСТАВЬТЕ ЗАЯВКУ, ЧТОБЫ ОБСУДИТЬ ВАШ ПРОЕКТ
             </p>
-            <form class="two__bottom-form" v-on:submit.prevent="onSubmit">
-              <input name="client-name" class="two__form-input" type="text" placeholder="Имя" required>
-              <input name="client-phone" id="client-phone" class="two__form-input" type="text"
-                placeholder="+7 (999) 999-99-99" required>
+            <form class="two__bottom-form" v-on:submit.prevent="uploadForm">
+              <input
+                id="contact-client-name"
+                name="client-name"
+                class="two__form-input"
+                type="text"
+                placeholder="Имя"
+                required
+              />
+              <input
+                id="contact-client-phone"
+                name="client-phone"
+                class="two__form-input"
+                type="text"
+                placeholder="+7 (999) 999-99-99"
+                required
+              />
               <button class="btn" type="submit">
                 <p>СВЯЖИТЕСЬ со мной</p>
               </button>
-              <a class="two__bottom-social" href="https://api.whatsapp.com/send?phone=79015953988&amp;text=">
+              <a
+                class="two__bottom-social"
+                href="https://api.whatsapp.com/send?phone=79015953988&amp;text="
+              >
                 <i>
-                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M0.711907 35.2976L3.02604 26.8897L3.08165 26.6876L2.9766 26.5063C-3.69687 14.9883 4.69407 0.5 18.0673 0.5C22.6164 0.5 26.8951 2.22982 30.193 5.30592L30.1735 5.35643L30.4042 5.58624C41.2877 16.4276 33.5916 35.1683 18.1063 35.1925C17.924 35.1712 17.6894 35.1579 17.4077 35.1419C15.9149 35.0571 13.1 34.8972 9.74003 33.0821L9.56677 32.9885L9.37621 33.0382L0.711907 35.2976Z"
-                      stroke="white" />
+                      stroke="white"
+                    />
                     <path
                       d="M27.225 21.6136L27.2111 21.7288C26.7456 21.4983 24.4782 20.3966 24.0559 20.2445C23.1078 19.8957 23.3754 20.1892 21.555 22.2604C21.2843 22.56 21.0152 22.5831 20.5559 22.3757C20.0919 22.1452 18.6024 21.6612 16.8393 20.0939C15.4658 18.8724 14.544 17.3743 14.2718 16.9134C13.8186 16.1359 14.7667 16.0253 15.6298 14.4027C15.7844 14.0801 15.7056 13.8266 15.5911 13.5976C15.4751 13.3671 14.5518 11.1085 14.1651 10.2081C13.7939 9.31077 13.4119 9.42447 13.1257 9.42447C12.2349 9.34765 11.5837 9.35994 11.0099 9.95303C8.51363 12.6788 9.14311 15.4906 11.279 18.4806C15.4767 23.9383 17.7131 24.9432 21.8025 26.3383C22.9068 26.6871 23.9136 26.6379 24.7102 26.5242C25.5979 26.3844 27.4431 25.4164 27.8282 24.3332C28.2226 23.2499 28.2226 22.3511 28.1066 22.1436C27.9922 21.9362 27.689 21.821 27.225 21.6136Z"
-                      fill="white" />
+                      fill="white"
+                    />
                   </svg>
-
                 </i>
               </a>
             </form>
@@ -427,49 +450,7 @@
               </a>
             </div>
           </div>
-          <form class="eight__form">
-            <input name="client-name" class="eight__form-input" type="text" placeholder="Имя" required>
-            <input name="client-phone2" id="client-phone2" class="eight__form-input" type="text"
-              placeholder="Номер телефона" required>
-            <div class="eight__textaera">
-              <textarea class="eight__form-input" rows="3" cols="30"
-                placeholder="Приложите ссылку или прикрепите бриф по вашей задаче" />
-              <div class="input-container">
-                <input type="file" id="fileInput" />
-                <label for="fileInput">
-                  <div class="icon-container">
-                    <i>
-                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M10.498 13.5981L6.94592 17.1502L7.85009 18.0544L11.4022 14.5023L11.0793 13.9211L10.498 13.5981Z"
-                          fill="white" />
-                        <path
-                          d="M14.5021 11.4023L18.1833 7.72106L17.2791 6.81689L13.5979 10.4981L13.9208 11.0794L14.5021 11.4023Z"
-                          fill="white" />
-                        <path d="M9.91675 7.97949L7.97925 9.91699L12.5001 12.5003L9.91675 7.97949Z" fill="white" />
-                        <path d="M12.5 12.5L15.0833 17.0208L17.0208 15.0833L12.5 12.5Z" fill="white" />
-                        <path
-                          d="M11.5313 21.6709C10.4216 22.6426 8.98398 23.156 7.50983 23.1071C6.03568 23.0583 4.63523 22.4508 3.59228 21.4079C2.54933 20.3649 1.94188 18.9645 1.89303 17.4903C1.84418 16.0162 2.35758 14.5786 3.3292 13.4688L5.13754 11.6605L4.23337 10.7563L2.42504 12.5647C1.42578 13.5583 0.74461 14.8267 0.468143 16.2085C0.191676 17.5903 0.332404 19.0231 0.872433 20.3247C1.41246 21.6263 2.32739 22.7379 3.50087 23.5181C4.67435 24.2984 6.05336 24.712 7.46254 24.7063C9.34517 24.6918 11.1496 23.9515 12.5 22.6397L14.3084 20.8313L13.4042 19.9272L11.5313 21.6709Z"
-                          fill="white" />
-                        <path
-                          d="M22.7043 2.29607C22.0441 1.63215 21.2591 1.10529 20.3946 0.74577C19.5301 0.386252 18.603 0.201172 17.6668 0.201172C16.7305 0.201172 15.8034 0.386252 14.9389 0.74577C14.0744 1.10529 13.2895 1.63215 12.6293 2.29607L10.8209 4.1044L11.7251 5.00857L13.5334 3.20024C14.0576 2.60156 14.6991 2.11689 15.4182 1.77624C16.1374 1.43559 16.9188 1.24623 17.7141 1.21987C18.5093 1.19352 19.3016 1.33074 20.0417 1.62303C20.7818 1.91532 21.454 2.35646 22.0166 2.91912C22.5793 3.48179 23.0204 4.15398 23.3127 4.89408C23.605 5.63417 23.7422 6.4264 23.7159 7.22169C23.6895 8.01698 23.5002 8.79838 23.1595 9.5175C22.8189 10.2366 22.3342 10.8781 21.7355 11.4023L19.9272 13.2107L20.8313 14.1148L22.6397 12.3065C23.3106 11.6588 23.8453 10.8836 24.2125 10.0265C24.5797 9.16927 24.772 8.24737 24.778 7.31487C24.784 6.38236 24.6037 5.45806 24.2476 4.59621C23.8915 3.73436 23.3668 2.95234 22.7043 2.29607V2.29607Z"
-                          fill="white" />
-                      </svg>
-                    </i>
-                  </div>
-                </label>
-              </div>
-            </div>
-            <div class="eight__form-btn--wrap">
-              <button class="eight__form-btn btn btn--large">
-                <p>Свяжитесь со мной</p>
-              </button>
-            </div>
-            <div class="eight__bottom-conf">
-              <p>Нажимая на кнопку вы соглашаетесь с </p>
-              <a href="/conf"> Политикой конфиденциальности <br> и обработки персональных данных</a>
-            </div>
-          </form>
+          <ContactForm page="MainPage" />
         </div>
       </div>
     </div>
@@ -480,11 +461,13 @@
 
 
 import PopupComponent from '../components/Popup.vue'; // Импортируйте компонент
+import ContactForm from "../components/ContactForm.vue";
 
 export default {
   name: 'home',
   components: {
-    PopupComponent // Зарегистрируйте компонент для использования
+    PopupComponent, // Зарегистрируйте компонент для использования
+    ContactForm,
   },
   data() {
     return {
@@ -495,6 +478,25 @@ export default {
   methods: {
     openPopup() {
       this.$refs.popup.openPopup(); // Вызов метода openPopup из компонента Popup
+    },
+    async uploadForm() {
+      const formData = new FormData();
+      formData.append(
+        "Name",
+        document.querySelector("#contact-client-name").value
+      );
+      formData.append(
+        "Phone",
+        document.querySelector("#contact-client-phone").value
+      );
+      try {
+        await fetch("https://remixmedia.ru/sendContactForm", {
+          method: "POST",
+          body: formData,
+        });
+      } catch (error) {
+        console.error("There was a problem with the fetch operation:", error);
+      }
     },
   },
   mounted() {

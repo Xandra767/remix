@@ -107,110 +107,47 @@
     </div>
   </section>
   <section class="two">
-    <div class="container">
-      <div class="container__elem container__elem--12">
-        <div class="two__inner">
-          <h2 class="two__title">НАШИ УСЛУГИ</h2>
-          <div class="two__items">
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-1.png"
-                  alt="img"
-                />
-                <p class="two__item-text">WEB-студия</p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-2.png"
-                  alt="img"
-                />
-                <p class="two__item-text">SMM</p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-3.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Брендинг <br />
-                  и дизайн
-                </p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-4.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Стратегия <br />
-                  и Консультации
-                </p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-5.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Спецпроекты <br />
-                  и PR
-                </p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-6.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Продвижение <br />
-                  в Telegram
-                </p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-7.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Цифровые <br />
-                  воронки
-                </p>
-              </div>
-            </div>
-            <div class="two__item">
-              <div class="two__item-wrap">
-                <img
-                  class="two__item-img"
-                  src="../assets/img/two-item-img-8.png"
-                  alt="img"
-                />
-                <p class="two__item-text">
-                  Контент <br />
-                  и продакшн
-                </p>
-              </div>
-            </div>
+    <div class="two__inner">
+      <div class="two__items">
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">Продвижение <br> Telegram</p>
+            <p class="two__item-text">Посевы, <br> Telegram Ads, Рассылки, <br> Боты</p>
           </div>
+        </a>
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">Digital- <br>маркетинг</p>
+            <p class="two__item-text">Стратегия, Перфоманс, <br> SMM, Таргет VK</p>
+          </div>
+        </a>
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">Дизайн- <br>студия</p>
+            <p class="two__item-text">Digital-дизайн, <br> брендинг, POSM</p>
+          </div>
+        </a>
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">Продакшн- <br>студия</p>
+            <p class="two__item-text">Фото и видео, AI- <br>креатив, 3D контент, <br> копирайтинг</p>
+          </div>
+        </a>
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">WEB-студия</p>
+            <p class="two__item-text">Разработка сайтов  <br>и ботов</p>
+          </div>
+        </a>
+        <a href="#" class="two__item">
+          <div class="two__item-inner">
+            <p class="two__item-title">PR и  <br>Спецпроекты</p>
+            <p class="two__item-text">Личный бренд, Креатив, <br> PR в СМИ, оффлайн- <br>маркетинг</p>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <div class="container__elem container__elem--12">
           <div class="two__bottom" id="two__bottom">
             <p class="two__bottom-text">
               ОСТАВЬТЕ ЗАЯВКУ, ЧТОБЫ ОБСУДИТЬ ВАШ ПРОЕКТ
@@ -260,10 +197,8 @@
               </a>
             </form>
             <div class="two__bottom-conf">
-              <p>* Нажимая на кнопку вы соглашаетесь с</p>
-              <a href="/conf"
-                >Политикой конфиденциальности и обработки персональных данных</a
-              >
+              <p>* Нажимая на кнопку вы соглашаетесь с </p>
+              <a href="/conf">Политикой конфиденциальности и обработки персональных данных</a>
             </div>
           </div>
         </div>

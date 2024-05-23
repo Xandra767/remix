@@ -709,6 +709,7 @@ export default {
     addRemoveAnimForSmallScreen();
 
     const fiveItems = document.querySelector(".five__items");
+
     const fiveItem = document.querySelectorAll(".five__item");
 
     function isElementInViewport(el) {

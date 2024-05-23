@@ -1,148 +1,216 @@
 <template>
   <section class="one">
-    <video class="one__video" src="../assets/video/one__video.mp4" muted autoplay loop></video>
+    <video
+      class="one__video"
+      src="../assets/video/one__video.mp4"
+      muted
+      autoplay
+      loop
+    ></video>
     <div class="one__inner">
       <div class="carousel-container">
         <div class="carousel-track">
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-1.png" alt="img">
+            <img src="../assets/img/one-partner-1.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-2.png" alt="img">
+            <img src="../assets/img/one-partner-2.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-3.png" alt="img">
+            <img src="../assets/img/one-partner-3.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-4.png" alt="img">
+            <img src="../assets/img/one-partner-4.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-5.png" alt="img">
+            <img src="../assets/img/one-partner-5.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-6.png" alt="img">
+            <img src="../assets/img/one-partner-6.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-7.png" alt="img">
+            <img src="../assets/img/one-partner-7.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-8.png" alt="img">
+            <img src="../assets/img/one-partner-8.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-9.png" alt="img">
+            <img src="../assets/img/one-partner-9.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-10.png" alt="img">
+            <img src="../assets/img/one-partner-10.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-11.png" alt="img">
+            <img src="../assets/img/one-partner-11.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-12.png" alt="img">
+            <img src="../assets/img/one-partner-12.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-13.png" alt="img">
+            <img src="../assets/img/one-partner-13.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-14.png" alt="img">
+            <img src="../assets/img/one-partner-14.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-15.png" alt="img">
+            <img src="../assets/img/one-partner-15.png" alt="img" />
           </div>
         </div>
         <div class="carousel-track">
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-1.png" alt="img">
+            <img src="../assets/img/one-partner-1.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-2.png" alt="img">
+            <img src="../assets/img/one-partner-2.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-3.png" alt="img">
+            <img src="../assets/img/one-partner-3.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-4.png" alt="img">
+            <img src="../assets/img/one-partner-4.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-5.png" alt="img">
+            <img src="../assets/img/one-partner-5.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-6.png" alt="img">
+            <img src="../assets/img/one-partner-6.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-7.png" alt="img">
+            <img src="../assets/img/one-partner-7.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-8.png" alt="img">
+            <img src="../assets/img/one-partner-8.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-9.png" alt="img">
+            <img src="../assets/img/one-partner-9.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-10.png" alt="img">
+            <img src="../assets/img/one-partner-10.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-11.png" alt="img">
+            <img src="../assets/img/one-partner-11.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-12.png" alt="img">
+            <img src="../assets/img/one-partner-12.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-13.png" alt="img">
+            <img src="../assets/img/one-partner-13.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-14.png" alt="img">
+            <img src="../assets/img/one-partner-14.png" alt="img" />
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/one-partner-15.png" alt="img">
+            <img src="../assets/img/one-partner-15.png" alt="img" />
           </div>
         </div>
       </div>
-
     </div>
   </section>
   <section class="two">
-    <div class="two__inner">
-      <div class="two__items">
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">Продвижение <br> Telegram</p>
-            <p class="two__item-text">Посевы, <br> Telegram Ads, Рассылки, <br> Боты</p>
+    <div class="container">
+      <div class="container__elem container__elem--12">
+        <div class="two__inner">
+          <h2 class="two__title">НАШИ УСЛУГИ</h2>
+          <div class="two__items">
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-1.png"
+                  alt="img"
+                />
+                <p class="two__item-text">WEB-студия</p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-2.png"
+                  alt="img"
+                />
+                <p class="two__item-text">SMM</p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-3.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Брендинг <br />
+                  и дизайн
+                </p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-4.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Стратегия <br />
+                  и Консультации
+                </p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-5.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Спецпроекты <br />
+                  и PR
+                </p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-6.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Продвижение <br />
+                  в Telegram
+                </p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-7.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Цифровые <br />
+                  воронки
+                </p>
+              </div>
+            </div>
+            <div class="two__item">
+              <div class="two__item-wrap">
+                <img
+                  class="two__item-img"
+                  src="../assets/img/two-item-img-8.png"
+                  alt="img"
+                />
+                <p class="two__item-text">
+                  Контент <br />
+                  и продакшн
+                </p>
+              </div>
+            </div>
           </div>
-        </a>
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">Digital- <br>маркетинг</p>
-            <p class="two__item-text">Стратегия, Перфоманс, <br> SMM, Таргет VK</p>
-          </div>
-        </a>
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">Дизайн- <br>студия</p>
-            <p class="two__item-text">Digital-дизайн, <br> брендинг, POSM</p>
-          </div>
-        </a>
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">Продакшн- <br>студия</p>
-            <p class="two__item-text">Фото и видео, AI- <br>креатив, 3D контент, <br> копирайтинг</p>
-          </div>
-        </a>
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">WEB-студия</p>
-            <p class="two__item-text">Разработка сайтов  <br>и ботов</p>
-          </div>
-        </a>
-        <a href="#" class="two__item">
-          <div class="two__item-inner">
-            <p class="two__item-title">PR и  <br>Спецпроекты</p>
-            <p class="two__item-text">Личный бренд, Креатив, <br> PR в СМИ, оффлайн- <br>маркетинг</p>
-          </div>
-        </a>
-      </div>
-      <div class="container">
-        <div class="container__elem container__elem--12">
           <div class="two__bottom" id="two__bottom">
             <p class="two__bottom-text">
               ОСТАВЬТЕ ЗАЯВКУ, ЧТОБЫ ОБСУДИТЬ ВАШ ПРОЕКТ
@@ -192,8 +260,10 @@
               </a>
             </form>
             <div class="two__bottom-conf">
-              <p>* Нажимая на кнопку вы соглашаетесь с </p>
-              <a href="/conf">Политикой конфиденциальности и обработки персональных данных</a>
+              <p>* Нажимая на кнопку вы соглашаетесь с</p>
+              <a href="/conf"
+                >Политикой конфиденциальности и обработки персональных данных</a
+              >
             </div>
           </div>
         </div>
@@ -202,29 +272,32 @@
   </section>
   <section class="three">
     <div class="three__inner">
-      <img src="../assets/img/three-video.png" alt="">
+      <img src="../assets/img/three-video.png" alt="" />
       <button class="three__play" @click="openPopup">
         <i>
-          <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            width="140"
+            height="140"
+            viewBox="0 0 140 140"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <circle cx="70" cy="70" r="70" fill="#622DE1" />
             <path
               d="M87.9312 68.5308C90.5978 70.0704 90.5978 73.9194 87.9312 75.459L64.9311 88.738C62.2645 90.2776 58.9311 88.3531 58.9311 85.2739V58.7158C58.9311 55.6366 62.2645 53.7121 64.9311 55.2517L87.9312 68.5308Z"
-              fill="white" />
+              fill="white"
+            />
           </svg>
-
         </i>
       </button>
       <PopupComponent ref="popup"></PopupComponent>
-
     </div>
   </section>
   <section class="four">
     <div class="container">
       <div class="container__elem container__elem--12">
         <div class="four__inner">
-          <h2 class="four__title">
-            ключевые направления
-          </h2>
+          <h2 class="four__title">ключевые направления</h2>
           <div class="four__content">
             <div class="four__box">
               <div class="four__box-item">
@@ -239,11 +312,20 @@
               <div class="four__box-item">
                 <p>медицина</p>
               </div>
-              <video class="four__box-video" src="../assets/video/sc_1.mp4" muted autoplay loop></video>
+              <video
+                class="four__box-video"
+                src="../assets/video/sc_1.mp4"
+                muted
+                autoplay
+                loop
+              ></video>
             </div>
             <div class="four__info">
-              <p class="four__text">Мы всегда готовы реализовать нестандартные и интересные задачи <br>
-                и в других отраслях</p>
+              <p class="four__text">
+                Мы всегда готовы реализовать нестандартные и интересные задачи
+                <br />
+                и в других отраслях
+              </p>
             </div>
           </div>
         </div>
@@ -259,38 +341,47 @@
     <div class="container">
       <div class="container__elem container__elem--12">
         <div class="five__inner">
-          <h2 class="five__title">
-            Проекты
-          </h2>
+          <h2 class="five__title">КЕЙСЫ</h2>
           <div class="five__info">
-            <p class="five__info-text">Каждый из фаундеров получил опыт внедрения стратегии маркетинга и проведения
-              цифровой трансформации в банках, крупных корпорациях и ритейл-сетях.
-              <br><br>
-              Мы встретились, чтобы соединить это для пользы бизнеса наших клиентов.
+            <p class="five__info-text">
+              Каждый из фаундеров получил опыт внедрения стратегии маркетинга и
+              проведения цифровой трансформации в банках, крупных корпорациях и
+              ритейл-сетях. <br /><br />
+              Мы встретились, чтобы соединить это для пользы бизнеса наших
+              клиентов.
             </p>
           </div>
           <div class="five__items">
             <div class="five__item">
-              <div class="five__item-wrap">
-              </div>
-              <img src="../assets/img/five-item-1.png" alt="" class="five__item-img">
+              <div class="five__item-wrap"></div>
+              <img
+                src="../assets/img/five-item-1.png"
+                alt=""
+                class="five__item-img"
+              />
               <div class="five__item-info">
                 <p class="five__item-text">Продвижение в Telegram</p>
               </div>
             </div>
             <div class="five__item">
-              <div class="five__item-wrap">
-              </div>
-              <img src="../assets/img/five-item-2.png" alt="" class="five__item-img">
+              <div class="five__item-wrap"></div>
+              <img
+                src="../assets/img/five-item-2.png"
+                alt=""
+                class="five__item-img"
+              />
               <div class="five__item-info">
                 <p class="five__item-text">SMM-сопровождение</p>
                 <p class="five__item-text">Продвижение в Telegram</p>
               </div>
             </div>
             <div class="five__item">
-              <div class="five__item-wrap">
-              </div>
-              <img src="../assets/img/five-item-3.png" alt="" class="five__item-img">
+              <div class="five__item-wrap"></div>
+              <img
+                src="../assets/img/five-item-3.png"
+                alt=""
+                class="five__item-img"
+              />
               <div class="five__item-info">
                 <p class="five__item-text">Брендинг и дизайн</p>
                 <p class="five__item-text">SMM-сопровождение</p>
@@ -310,24 +401,25 @@
     <div class="container">
       <div class="container__elem container__elem--12">
         <div class="six__inner">
-          <h2 class="six__title six__title--one">
-            ЭТО РЕМИКС ЗНАНИЙ,
-          </h2>
-          <h2 class="six__title six__title--two">
-            ПОДХОДОВ И ВЗГЛЯДОВ
-          </h2>
+          <h2 class="six__title six__title--one">ЭТО РЕМИКС ЗНАНИЙ,</h2>
+          <h2 class="six__title six__title--two">ПОДХОДОВ И ВЗГЛЯДОВ</h2>
           <div class="six__content">
             <div class="six__item">
               <div class="six__item-wrap">
-                <h3 class="six__item-title">Наши <br> достижения</h3>
-                <p class="six__item-text">Наш подход нацелен на результат, который <br> измеряется в полученной прибыли.
+                <h3 class="six__item-title">
+                  Наши <br />
+                  достижения
+                </h3>
+                <p class="six__item-text">
+                  Наш подход нацелен на результат, который <br />
+                  измеряется в полученной прибыли.
                 </p>
               </div>
               <video src="../assets/video/sc_1.mp4" muted autoplay loop></video>
             </div>
             <div class="six__item">
               <div class="six__item-wrap">
-                <h3 class="six__item-title">БОЛЕЕ 3-Х ЛЕТ </h3>
+                <h3 class="six__item-title">БОЛЕЕ 3-Х ЛЕТ</h3>
                 <p class="six__item-text">присутствия агентства на рынке</p>
               </div>
               <video src="../assets/video/sc_2.mp4" muted autoplay loop></video>
@@ -341,7 +433,10 @@
             <div class="six__item">
               <div class="six__item-wrap">
                 <h3 class="six__item-title">12+ лет</h3>
-                <p class="six__item-text">опыта основателей в финансовой <br> сфере, бизнесе и маркетинге</p>
+                <p class="six__item-text">
+                  опыта основателей в финансовой <br />
+                  сфере, бизнесе и маркетинге
+                </p>
               </div>
               <video src="../assets/video/sc_3.mp4" muted autoplay loop></video>
             </div>
@@ -380,18 +475,26 @@
               <h5 class="seven__graph-title">ВКонтакте</h5>
               <h6 class="seven__graph-text">официальное сообщество</h6>
             </a>
-            <a class="seven__graph-item" href="https://vc.ru/u/1113730-aleksandra-mironova">
+            <a
+              class="seven__graph-item"
+              href="https://vc.ru/u/1113730-aleksandra-mironova"
+            >
               <h5 class="seven__graph-title">VC.ru</h5>
               <h6 class="seven__graph-text">блог основателей</h6>
             </a>
-            <a class="seven__graph-item" href="https://www.behance.net/ef343378">
+            <a
+              class="seven__graph-item"
+              href="https://www.behance.net/ef343378"
+            >
               <h5 class="seven__graph-title">Behance</h5>
               <h6 class="seven__graph-text">дизайн кейсы</h6>
             </a>
           </div>
           <div class="seven__info">
-            <h2 class="seven__info-title">Наши основатели – кофаундеры ряда технологичных проектов, которые выделят вас
-              среди тысячи других</h2>
+            <h2 class="seven__info-title">
+              Наши основатели – кофаундеры ряда технологичных проектов, которые
+              выделят вас среди тысячи других
+            </h2>
             <div class="seven__info-btns">
               <a class="btn" href="https://t.me/nft999">
                 <p>написать основателю</p>
@@ -410,41 +513,63 @@
       <div class="container__elem container__elem--12">
         <div class="eight__inner">
           <div class="eight__info">
-            <h2 class="eight__info-title">Напишите или <br> позвоните нам</h2>
+            <h2 class="eight__info-title">
+              Напишите или <br />
+              позвоните нам
+            </h2>
             <div class="eight__info-links">
               <a href="tel:88001016856">
                 <i>
-                  <svg width="40" height="35" viewBox="0 0 40 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="40"
+                    height="35"
+                    viewBox="0 0 40 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M37.9794 24.8459L37.9497 25.0801C36.9583 24.6116 32.1296 22.3721 31.2304 22.0629C29.2113 21.3539 29.7811 21.9504 25.9043 26.1608C25.3279 26.7699 24.7548 26.8168 23.7765 26.3951C22.7884 25.9266 19.6164 24.9427 15.8615 21.7568C12.9366 19.2736 10.9735 16.2283 10.3938 15.2912C9.42874 13.7108 11.4478 13.4859 13.2858 10.1875C13.6151 9.53161 13.4472 9.01624 13.2034 8.55084C12.9564 8.08233 10.99 3.49086 10.1665 1.66052C9.37603 -0.163574 8.56247 0.0675615 7.95311 0.0675615C6.05589 -0.0886108 4.6692 -0.0636237 3.4472 1.14203C-1.86898 6.68302 -0.528407 12.3989 4.02032 18.4772C12.9597 29.5716 17.7225 31.6144 26.4313 34.4505C28.7831 35.1595 30.9273 35.0595 32.6236 34.8284C34.5143 34.5442 38.4438 32.5764 39.2639 30.3744C40.1038 28.1723 40.1038 26.3451 39.8568 25.9235C39.6131 25.5018 38.9675 25.2675 37.9794 24.8459Z"
-                      fill="white" />
+                      fill="white"
+                    />
                   </svg>
-
                 </i>
                 <p>8 800 101 68 56</p>
               </a>
               <a href="tel:89015953988">
                 <i>
-                  <svg width="40" height="35" viewBox="0 0 40 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="40"
+                    height="35"
+                    viewBox="0 0 40 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M37.9794 24.8459L37.9497 25.0801C36.9583 24.6116 32.1296 22.3721 31.2304 22.0629C29.2113 21.3539 29.7811 21.9504 25.9043 26.1608C25.3279 26.7699 24.7548 26.8168 23.7765 26.3951C22.7884 25.9266 19.6164 24.9427 15.8615 21.7568C12.9366 19.2736 10.9735 16.2283 10.3938 15.2912C9.42874 13.7108 11.4478 13.4859 13.2858 10.1875C13.6151 9.53161 13.4472 9.01624 13.2034 8.55084C12.9564 8.08233 10.99 3.49086 10.1665 1.66052C9.37603 -0.163574 8.56247 0.0675615 7.95311 0.0675615C6.05589 -0.0886108 4.6692 -0.0636237 3.4472 1.14203C-1.86898 6.68302 -0.528407 12.3989 4.02032 18.4772C12.9597 29.5716 17.7225 31.6144 26.4313 34.4505C28.7831 35.1595 30.9273 35.0595 32.6236 34.8284C34.5143 34.5442 38.4438 32.5764 39.2639 30.3744C40.1038 28.1723 40.1038 26.3451 39.8568 25.9235C39.6131 25.5018 38.9675 25.2675 37.9794 24.8459Z"
-                      fill="white" />
+                      fill="white"
+                    />
                   </svg>
-
                 </i>
                 <p>8 901 595 3988</p>
               </a>
               <a href="mailto:AM@remixmedia.ru">
                 <i>
-                  <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="51"
+                    height="51"
+                    viewBox="0 0 51 51"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M3.51733 13.049V37.9722L15.9789 25.5106L3.51733 13.049ZM5.99347 10.5518L21.7701 26.3283C23.7626 28.3209 27.2376 28.3209 29.2301 26.3283L45.0067 10.5518H5.99347Z"
-                      fill="white" />
+                      fill="white"
+                    />
                     <path
                       d="M31.7166 28.8149C30.0583 30.475 27.8494 31.3912 25.4999 31.3912C23.1504 31.3912 20.9416 30.475 19.2832 28.8149L18.4654 27.9971L6.0144 40.4481H44.9854L32.5344 27.9971L31.7166 28.8149ZM35.0211 25.5104L47.4827 37.972V13.0488L35.0211 25.5104Z"
-                      fill="white" />
+                      fill="white"
+                    />
                   </svg>
-
                 </i>
                 <p>AM@remixmedia.ru</p>
               </a>
@@ -458,21 +583,19 @@
 </template>
 
 <script>
-
-
-import PopupComponent from '../components/Popup.vue'; // Импортируйте компонент
+import PopupComponent from "../components/Popup.vue"; // Импортируйте компонент
 import ContactForm from "../components/ContactForm.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     PopupComponent, // Зарегистрируйте компонент для использования
     ContactForm,
   },
   data() {
     return {
-      phoneNumber: '',
-      inputNumber: '',
+      phoneNumber: "",
+      inputNumber: "",
     };
   },
   methods: {
@@ -501,85 +624,83 @@ export default {
   },
   mounted() {
     // Подключение к текстовому полю
-    document.querySelector('#client-phone').onkeydown = function (e) {
-      inputPhone(e, document.querySelector('#client-phone'))
-    }
-    document.querySelector('#client-phone2').onkeydown = function (e) {
-      inputPhone(e, document.querySelector('#client-phone2'))
-    }
+    document.querySelector("#contact-client-phone").onkeydown = function (e) {
+      inputPhone(e, document.querySelector("#contact-client-phone"));
+    };
 
     function inputPhone(e, phone) {
       function stop(evt) {
         evt.preventDefault();
       }
 
-      let key = e.key, value = phone.value, not = key.replace(/([0-9])/, 1);
+      let key = e.key,
+        value = phone.value,
+        not = key.replace(/([0-9])/, 1);
 
-      if (not == 1 || 'Backspace' === not) {
-        if ('Backspace' != not) {
-          if (value.length < 4 || value === '') {
-            phone.value = '+7 (';
+      if (not == 1 || "Backspace" === not) {
+        if ("Backspace" != not) {
+          if (value.length < 4 || value === "") {
+            phone.value = "+7 (";
           }
           if (value.length === 7) {
-            phone.value = value + ') ';
+            phone.value = value + ") ";
           }
           if (value.length === 12) {
-            phone.value = value + '-';
+            phone.value = value + "-";
           }
           if (value.length === 15) {
-            phone.value = value + '-';
+            phone.value = value + "-";
           }
         }
       } else {
         stop(e);
       }
       if (value.length > 17) {
-      phone.value = value.substring(0, 17);
+        phone.value = value.substring(0, 17);
       }
     }
     function isElementNearBottom(el, offset) {
       const rect = el.getBoundingClientRect();
-      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
       const distanceFromBottom = windowHeight - rect.bottom;
       return distanceFromBottom <= offset;
-
     }
 
-
     function addRemoveAnimForSmallScreen() {
-      const twoBottom = document.querySelector('.two__bottom');
-      const threeInner = document.querySelector('.three__inner');
+      const twoBottom = document.querySelector(".two__bottom");
+      const threeInner = document.querySelector(".three__inner");
 
       if (window.innerWidth < 1024) {
-        document.addEventListener('scroll', function () {
+        document.addEventListener("scroll", function () {
           if (!isElementNearBottom(twoBottom, -600)) {
-            twoBottom.classList.add('anim');
+            twoBottom.classList.add("anim");
           } else {
-            twoBottom.classList.remove('anim');
+            twoBottom.classList.remove("anim");
           }
         });
 
-        document.addEventListener('scroll', function () {
+        document.addEventListener("scroll", function () {
           if (!isElementNearBottom(threeInner, -300)) {
-            threeInner.classList.add('anim');
+            threeInner.classList.add("anim");
           } else {
-            threeInner.classList.remove('anim');
+            threeInner.classList.remove("anim");
           }
         });
       } else {
-        document.addEventListener('scroll', function () {
+        document.addEventListener("scroll", function () {
           if (!isElementNearBottom(twoBottom, -200)) {
-            twoBottom.classList.add('anim');
+            twoBottom.classList.add("anim");
           } else {
-            twoBottom.classList.remove('anim');
+            twoBottom.classList.remove("anim");
           }
         });
 
-        document.addEventListener('scroll', function () {
+        document.addEventListener("scroll", function () {
           if (!isElementNearBottom(threeInner, -900)) {
-            threeInner.classList.add('anim');
+            threeInner.classList.add("anim");
           } else {
-            threeInner.classList.remove('anim');
+            threeInner.classList.remove("anim");
           }
         });
       }
@@ -588,20 +709,21 @@ export default {
     addRemoveAnimForSmallScreen();
 
     const fiveItems = document.querySelector(".five__items");
-
     const fiveItem = document.querySelectorAll(".five__item");
 
     function isElementInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
         rect.top >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight)
       );
     }
 
     function isElementNearBottom(el, offset) {
       const rect = el.getBoundingClientRect();
-      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
       const distanceFromBottom = windowHeight - rect.bottom;
       return distanceFromBottom <= offset;
     }
@@ -610,69 +732,68 @@ export default {
       function onScroll() {
         if (isElementInViewport(fiveItems)) {
           if (isElementNearBottom(fiveItems, 200)) {
-            fiveItem.forEach(item => {
-              item.classList.add('anim');
+            fiveItem.forEach((item) => {
+              item.classList.add("anim");
             });
           }
         }
       }
 
-      document.addEventListener('scroll', onScroll);
+      document.addEventListener("scroll", onScroll);
     }
 
     addAnimationOnScroll();
 
-
-    const fiveBtn = document.querySelector('.five__item-btn');
+    const fiveBtn = document.querySelector(".five__item-btn");
     function isElementInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
         rect.bottom >= 0 &&
         rect.right >= 0 &&
-        rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.top <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
         rect.left <= (window.innerWidth || document.documentElement.clientWidth)
       );
     }
 
     function onScroll() {
       if (isElementInViewport(fiveBtn)) {
-        const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-        const distanceFromBottom = viewportHeight - fiveBtn.getBoundingClientRect().bottom;
+        const viewportHeight =
+          window.innerHeight || document.documentElement.clientHeight;
+        const distanceFromBottom =
+          viewportHeight - fiveBtn.getBoundingClientRect().bottom;
         if (distanceFromBottom <= 100) {
-          fiveBtn.classList.add('anim');
+          fiveBtn.classList.add("anim");
         }
       }
     }
-    document.addEventListener('scroll', onScroll);
+    document.addEventListener("scroll", onScroll);
 
-
-    const sixTitles = document.querySelectorAll('.six__title');
+    const sixTitles = document.querySelectorAll(".six__title");
 
     function isElementNearBottom(el, offset) {
       const rect = el.getBoundingClientRect();
-      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
       const distanceFromBottom = windowHeight - rect.bottom;
       return distanceFromBottom <= offset;
     }
 
     function animateOnScroll() {
-      sixTitles.forEach(item => {
+      sixTitles.forEach((item) => {
         function onScroll() {
           if (isElementNearBottom(item, 100)) {
-            item.classList.remove('anim');
+            item.classList.remove("anim");
           } else {
-            item.classList.add('anim');
+            item.classList.add("anim");
           }
         }
 
-        document.addEventListener('scroll', onScroll);
+        document.addEventListener("scroll", onScroll);
       });
     }
 
     animateOnScroll();
-
-
-
-  }
+  },
 };
 </script>

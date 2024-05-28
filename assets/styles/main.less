@@ -408,6 +408,8 @@ html.scroll-none{
       display: flex;
       flex-direction: column;
       margin: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     });
     &:hover{
       .two__item-title{
@@ -504,6 +506,7 @@ html.scroll-none{
     position: relative;
     .breakpoint(@media-small, {
       height: 101px;
+      font-size: 22px;
     });
   }
   // .two__item-text
@@ -520,6 +523,9 @@ html.scroll-none{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
+    .breakpoint(@media-small, {
+      font-size: 14px;
+    });
   }
 
   // .two__bottom
@@ -2697,6 +2703,77 @@ html.scroll-none{
     white-space: pre-wrap;
   }
 }
+
+.thanks {
+  height: 100dvh;
+  width: 100vw;
+  position: relative;
+  &::after{
+    content: url('../img/thanks-after-img.png');
+    position: absolute;
+    left: -0;
+    top: 30px;
+    .breakpoint(@media-small, {
+      scale: .5;
+      left: -150px;
+      top: -100px
+    });
+  }
+  &::before{
+    content: url('../img/thanks-before-img.png');
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    .breakpoint(@media-small, {
+      scale: .5;
+      right: -200px;
+      bottom: -200px;
+    });
+  }
+  // .thanks__inner
+
+  &__inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    .breakpoint(@media-small, {
+      gap: 10px;
+    });
+  }
+
+  // .thanks__title
+
+  &__title {
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 400;
+    text-align: center;
+    font-family: @font1;
+    text-transform: uppercase;
+    .breakpoint(@media-small, {
+      font-size: 36px;
+      line-height: 40px;
+    });
+  }
+
+  // .thanks__text
+
+  &__text {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    font-family: @font0;
+    .breakpoint(@media-small, {
+      font-size: 14px;
+      line-height: 14px;
+    });
+  }
+}
+
 
 
 @import 'media';

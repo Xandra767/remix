@@ -554,6 +554,8 @@ export default {
         });
       } catch (error) {
         console.error("There was a problem with the fetch operation:", error);
+      } finally {
+        this.$router.push({ name: 'Thanks' });
       }
     },
   },

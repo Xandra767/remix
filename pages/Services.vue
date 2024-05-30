@@ -5,7 +5,7 @@
         <div class="services__inner">
           <h1 class="services__title">Подчеркиваем направление вашего успеха</h1>
           <div class="services__items">
-            <div class="services__item">
+            <a href="/projects" class="services__item">
               <p class="services__item-title">ПРОЕКТЫ</p>
               <p class="services__item-text">
                 Команда RemixMedia подходит стратегически даже <br> к тактическим задачам клиентов.
@@ -13,15 +13,15 @@
                 Опыт комплексного маркетинга в сфере FMCG, <br> медицины, финансов, ритейла, а также продвижение <br>
                 авторских блогов в социальных сетях.
               </p>
-            </div>
-            <div class="services__item">
+            </a>
+            <a href="/services" class="services__item">
               <p class="services__item-title">УСЛУГИ</p>
               <p class="services__item-text">
                 Мы предлагаем широкий спектр <br> маркетинговых услуг, но особо сильны <br> в продвижении Telegram,
                 брендинге <br>
                 и дизайне, комплексном SMM- <br> сопровождении и креативе.
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

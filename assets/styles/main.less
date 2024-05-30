@@ -411,6 +411,12 @@ html.scroll-none{
       display: grid;
       grid-template-columns: 1fr 1fr;
     });
+  }
+
+  // .two__item
+
+  &__item {
+    cursor: pointer;
     &:hover{
       .two__item-title{
         height: 101px;
@@ -422,12 +428,6 @@ html.scroll-none{
         });
       }
     }
-  }
-
-  // .two__item
-
-  &__item {
-    cursor: pointer;
     &:nth-child(1){
       .two__item-title{        
         background: url('../img/two-item-bg-1.png') no-repeat;      
@@ -2273,7 +2273,77 @@ html.scroll-none{
     });
   }
 
+  // .team__projects
 
+  &__projects {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 60px;
+    .breakpoint(@media-small, {
+      margin-top: 50px;
+      gap: 30px;
+      align-items: center;
+    });
+  }
+
+  // .team__projects-info
+
+  &__projects-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .breakpoint(@media-small, {
+      justify-content: center;
+      gap: 5px;
+      i{
+        scale: .5;
+      }
+    });
+  }
+
+  // .team__projects-title
+
+  &__projects-title {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    .breakpoint(@media-small, {
+      font-size: 25px;
+      line-height: 100%;
+    });
+  }
+
+  // .team__projects-inner
+
+  &__projects-inner {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    .breakpoint(@media-small, {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    });
+  }
+
+  // .team__projects-list
+
+  &__projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 60px;
+    width: 570px;
+    .breakpoint(@media-large, {
+      width: 300px;
+      gap: 20px;
+      justify-content: center;
+    });
+  }
 
   // .team__project-img
 
@@ -2338,6 +2408,15 @@ html.scroll-none{
       margin-top: 15px;
     });
   }
+
+    // .team__projects-big
+
+    &__projects-big {
+      width: 570px;
+      .breakpoint(@media-small, {
+        width: 100%;
+      });
+    }
 
   // .team__services-big
 
@@ -2932,7 +3011,7 @@ html.scroll-none{
       &::after{
         position: absolute;
         content: url(../img/cases-head-btn.png);
-        right: -20px;
+        right: 0px;
         top: 5px;
       }
       
@@ -2945,7 +3024,7 @@ html.scroll-none{
     margin-top: 65px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 25px 30px;
   }
 

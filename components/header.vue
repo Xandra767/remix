@@ -15,9 +15,9 @@
               <ul>
                 <li><a href="/">Главная</a></li>
                 <li><a href="/projects">Проекты</a></li>
+                <li><a href="/services">Услуги</a></li>
                 <li><a href="/team">Команда</a></li>
                 <li><a href="/contacts">Контакты</a></li>
-                <li><a href="#">Консультации</a></li>
               </ul>
             </nav>
             <div class="header__social-list">

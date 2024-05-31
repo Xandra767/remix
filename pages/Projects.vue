@@ -4,8 +4,8 @@
       <div class="container__elem container__elem--12">
         <div class="projects__inner">
           <h1 class="projects__title">Подчеркиваем направление вашего успеха</h1>
-          <div class="projects__items">
-            <a href="/projects" class="projects__item">
+          <div :class="['projects__items', {'projects__items--projects': activePage == 'projects'}, {'projects__items--services': activePage == 'services'}]">
+            <div @click="openPage('projects')" :class="['projects__item', { active: activePage == 'projects' }]">
               <p class="projects__item-title">ПРОЕКТЫ</p>
               <p class="projects__item-text">
                 Команда RemixMedia подходит стратегически даже <br> к тактическим задачам клиентов.
@@ -13,21 +13,21 @@
                 Опыт комплексного маркетинга в сфере FMCG, <br> медицины, финансов, ритейла, а также продвижение <br>
                 авторских блогов в социальных сетях.
               </p>
-            </a>
-            <a href="/services" class="projects__item">
+            </div>
+            <div @click="openPage('services')" :class="['projects__item', { active: activePage == 'services' }]">
               <p class="projects__item-title">УСЛУГИ</p>
               <p class="projects__item-text">
                 Мы предлагаем широкий спектр <br> маркетинговых услуг, но особо сильны <br> в продвижении Telegram,
                 брендинге <br>
                 и дизайне, комплексном SMM- <br> сопровождении и креативе.
               </p>
-            </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="cases">
+  <section v-if="activePage == 'projects'" class="cases">
     <div class="container">
       <div class="container__elem container__elem--12">
         <div class="cases__inner">
@@ -48,8 +48,56 @@
               <img :src="caseItem.logoSrc" alt="" class="cases__content-logo">
             </div>
           </div>
-          <button class="cases__more">ПОСМОТРЕТЬ ЕЩЁ</button>
+          <button class="cases__more" @click="moreBtn()">ПОСМОТРЕТЬ ЕЩЁ</button>
         </div>
+      </div>
+    </div>
+  </section>
+  <section v-if="activePage == 'services'" class="services-content">
+    <div class="container">
+      <div class="container__elem container__elem--12">
+        <div class="services-content__items">
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">Продвижение <br> Telegram</p>        
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">Digital- <br>маркетинг</p>        
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">Дизайн- <br>студия</p>        
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">Продакшн- <br>студия</p>          
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">WEB-студия</p>        
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">PR и  <br>Спецпроекты</p>          
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">подписки</p>          
+          </div>
+        </a>
+        <a href="#" class="services-content__item">
+          <div class="services-content__item-inner">
+            <p class="services-content__item-title">Консультации <br> обучение </p>          
+          </div>
+        </a>
+      </div>
       </div>
     </div>
   </section>
@@ -111,6 +159,7 @@ export default {
   name: "ProjectsView",
   data() {
     return {
+      activePage: 'projects',
       activeDirections: [],
       directions: [
         { id: 1, name: 'Продакшн-студия' },
@@ -186,7 +235,7 @@ export default {
         },
         {
           imgSrc: "/_nuxt/assets/img/case-img-10.png",
-          text: "Посевы, Telegram Ads, Рассылки, Боты",
+          text: "Таргет VK с миллиоными охватами для бренда Hi!",
           logoSrc: "/_nuxt/assets/img/case-logo-10.png",
           active: true,
           directions: [6]
@@ -293,6 +342,11 @@ export default {
     };
   },
   methods: {
+    openPage(page){
+      this.activePage = page;
+      const newUrl = `${window.location.origin}/${page}`;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+    },
     toggleDirection(directionId) {
       const index = this.activeDirections.indexOf(directionId);
       if (index === -1) {
@@ -313,14 +367,14 @@ export default {
       }
       // Иначе отображаем кейсы, которые соответствуют активным направлениям
       return caseItem.directions.some(direction => this.activeDirections.includes(direction));
+    },
+    moreBtn(){
+      this.activeDirections = [1,2,3,4,5,6]
+      document.querySelector('.cases__more').style.display = 'none';
     }
   },
   mounted() {
     document.body.classList.add('light-theme');
-    document.querySelector('.cases__more').addEventListener('click', ()=>{
-      casesBtn.style.display = 'none' 
-      this.activeDirections = [1,2,3,4,5,6]
-    })
   }
 };
 </script>

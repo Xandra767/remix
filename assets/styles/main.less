@@ -151,10 +151,7 @@ html.scroll-none{
     });
       ul {
         display: flex;
-        gap: 40px;
-        .breakpoint(@media-large, {
-          gap: 15px;
-        });
+        gap: 34px;
         li {
           a {
             font-size: 20px;
@@ -2856,7 +2853,9 @@ html.scroll-none{
 .projects {
   background-color: #12002C;
   position: relative;
-  height: 100dvh;
+  min-height: 100dvh;
+  height: 100%;
+  padding-bottom: 50px;
   &::after{
     content: url('../img/projects-bg-after.png');
     position: absolute;
@@ -2880,7 +2879,7 @@ html.scroll-none{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100%;
+      height: 100dvh;
     });
   }
 
@@ -2909,7 +2908,33 @@ html.scroll-none{
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 155px;
+    margin-top: 105px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: url('../img/projects-bg-title.png');
+      top: -50px;
+      z-index: 1;
+      transition: 1s;
+      width: 100%;
+      .breakpoint(@media-small, {
+        scale: .4;
+        top: -80px
+      });
+    }
+    &--services::after {
+      transform: translateX(72%); /* Перемещаем картинку вправо */
+      .breakpoint(@media-small, {
+        transform: translate(11%, 520px); /* Перемещаем картинку вправо */
+      });
+    }
+    
+    &--projects::after {
+      transform: translateX(7%); /* Перемещаем картинку влево (исходное положение) */
+      .breakpoint(@media-small, {
+        transform: translate(11%, 0px); /* Перемещаем картинку вправо */
+      });
+    }
     .breakpoint(@media-small, {
       margin-top: 55px;
       gap: 30px;
@@ -2923,27 +2948,18 @@ html.scroll-none{
     flex-direction: column;
     gap: 28px;
     max-width: 486px;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 2;
+    &.active{
+      opacity: 1;
+      cursor: default;
+      z-index: 0;
+    }
     .breakpoint(@media-small, {
       justify-content: center;
       align-items: center;
     });
-    &:nth-child(1){
-      position: relative;
-      .projects__item-title::after{
-        position: absolute;
-        content: url('../img/projects-bg-title.png');
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -70%);
-        .breakpoint(@media-small, {
-          scale: .4;
-          transform: translate(-120%, -170%)
-        });
-      }
-    }
-    &:nth-child(2){
-      opacity: 0.5;
-    }
   }
   
   // .projects__item-title
@@ -3037,6 +3053,7 @@ html.scroll-none{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    overflow: hidden;
     height: 255px;
     display: none;
     .breakpoint(@media-small, {
@@ -3067,7 +3084,7 @@ html.scroll-none{
     width: 100%;
     height: 100%;
     z-index: -2;
-    border-radius: 16px;
+    object-fit: cover;
   }
 
   // .cases__content-text
@@ -3241,7 +3258,7 @@ html.scroll-none{
   &__items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 47px 67px;
+    gap: 25px 30px;
     margin: 0 -40px;
     .breakpoint(@media-large, {
       margin: 0;

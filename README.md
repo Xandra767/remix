@@ -3,7 +3,7 @@
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
-update docker1
+update docker
 Make sure to install the dependencies:
 
 ```bash

@@ -171,170 +171,170 @@ export default {
       ],
       cases: [
         {
-          imgSrc: "../assets/img/case-img-1.png",
+          imgSrc: "/_nuxt/assets/img/case-img-1.png",
           text: "PR и маркетинговое сопровождение цифровой экосистемы КорпСофт24",
-          logoSrc: "../assets/img/case-logo-1.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-1.png",
           active: true,
           directions: [2,6,5]
         },
         {
-          imgSrc: "../assets/img/case-img-2.png",
+          imgSrc: "/_nuxt/assets/img/case-img-2.png",
           text: "SMM-стратегия для банка",
-          logoSrc: "../assets/img/case-logo-2.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-2.png",
           active: false,
           directions: [6]
         },
         {
-          imgSrc: "../assets/img/case-img-3.png",
+          imgSrc: "/_nuxt/assets/img/case-img-3.png",
           text: "Брендбук и дизайн-поддержка крупного IT-интегратора",
-          logoSrc: "../assets/img/case-logo-3.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-3.png",
           active: true,
           directions: [2,6]
         },
         {
-          imgSrc: "../assets/img/case-img-4.png",
+          imgSrc: "/_nuxt/assets/img/case-img-4.png",
           text: "Комплексный маркетинг для новой платежной системы",
-          logoSrc: "../assets/img/case-logo-4.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-4.png",
           active: true,
           directions: [5,6]
         },
         {
-          imgSrc: "../assets/img/case-img-5.png",
+          imgSrc: "/_nuxt/assets/img/case-img-5.png",
           text: "Брендбук, продвижение и продакшн сети кофеен в Москве",
-          logoSrc: "../assets/img/case-logo-5.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-5.png",
           active: false,
           directions: [2,4,6]
         },
         {
-          imgSrc: "../assets/img/case-img-6.png",
+          imgSrc: "/_nuxt/assets/img/case-img-6.png",
           text: "Фирменный стиль для компании ПраймСур",
-          logoSrc: "../assets/img/case-logo-6.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-6.png",
           active: false,
           directions: []
         },
         {
-          imgSrc: "../assets/img/case-img-7.png",
+          imgSrc: "/_nuxt/assets/img/case-img-7.png",
           text: "Разработка сайта нового бренда энергетиков",
-          logoSrc: "../assets/img/case-logo-7.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-7.png",
           active: false,
           directions: [2,4]
         },
         {
-          imgSrc: "../assets/img/case-img-8.png",
+          imgSrc: "/_nuxt/assets/img/case-img-8.png",
           text: "+20 000 подписчиков личного блога в Telegram акционера крупной компании",
-          logoSrc: "../assets/img/case-logo-8.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-8.png",
           active: false,
           directions: [3,5,6]
         },
         {
-          imgSrc: "../assets/img/case-img-9.png",
+          imgSrc: "/_nuxt/assets/img/case-img-9.png",
           text: "Реклама в Telegram крупнейшего производителя продуктов питания",
-          logoSrc: "../assets/img/case-logo-9.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-9.png",
           active: true,
           directions: [3,6,5]
         },
         {
-          imgSrc: "../assets/img/case-img-10.png",
+          imgSrc: "/_nuxt/assets/img/case-img-10.png",
           text: "Таргет VK с миллиоными охватами для бренда Hi!",
-          logoSrc: "../assets/img/case-logo-10.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-10.png",
           active: true,
           directions: [6]
         },
         {
-          imgSrc: "../assets/img/case-img-11.png",
+          imgSrc: "/_nuxt/assets/img/case-img-11.png",
           text: "Разработка дизайна POSM для лаборатории эффективных кормов",
-          logoSrc: "../assets/img/case-logo-11.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-11.png",
           active: true,
           directions: [2]
         },
         {
-          imgSrc: "../assets/img/case-img-12.png",
+          imgSrc: "/_nuxt/assets/img/case-img-12.png",
           text: "Дизайн-сопровождение инновационного центра Бирюч",
-          logoSrc: "../assets/img/case-logo-12.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-12.png",
           active: false,
           directions: [2]
         },
         {
-          imgSrc: "../assets/img/case-img-13.png",
+          imgSrc: "/_nuxt/assets/img/case-img-13.png",
           text: "Развитие с 0 до 3 700+ подписчиков образовательного портала Вавилон за 3 месяца",
-          logoSrc: "../assets/img/case-logo-13.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-13.png",
           active: false,
           directions: [3,6]
         },
         {
-          imgSrc: "../assets/img/case-img-14.png",
+          imgSrc: "/_nuxt/assets/img/case-img-14.png",
           text: "Статья на VC.ru и продвижение B2B-бота в Telegram",
-          logoSrc: "../assets/img/case-logo-14.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-14.png",
           active: false,
           directions: [3,5]
         },
         {
-          imgSrc: "../assets/img/case-img-15.png",
+          imgSrc: "/_nuxt/assets/img/case-img-15.png",
           text: "Комплексный маркетинг для бренда концентратов из алтайских трав",
-          logoSrc: "../assets/img/case-logo-15.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-15.png",
           active: false,
           directions: [1,2,3,6]
         },
         {
-          imgSrc: "../assets/img/case-img-16.png",
+          imgSrc: "/_nuxt/assets/img/case-img-16.png",
           text: "Развитие с 0 до 12 000+ подписчиков канала частной клиники",
-          logoSrc: "../assets/img/case-logo-16.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-16.png",
           active: false,
           directions: [3,6]
         },
         {
-          imgSrc: "../assets/img/case-img-17.png",
+          imgSrc: "/_nuxt/assets/img/case-img-17.png",
           text: "SMM-продвижение производителя сыров Kalleh",
-          logoSrc: "../assets/img/case-logo-17.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-17.png",
           active: false,
           directions: [6]
         },
         {
-          imgSrc: "../assets/img/case-img-18.png",
+          imgSrc: "/_nuxt/assets/img/case-img-18.png",
           text: "SMM-продвижение бренда Sorbon в России",
-          logoSrc: "../assets/img/case-logo-18.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-18.png",
           active: false,
           directions: [6]
         },
         {
-          imgSrc: "../assets/img/case-img-19.png",
+          imgSrc: "/_nuxt/assets/img/case-img-19.png",
           text: "Комплексный маркетинг маркетплейса полезных продуктов",
-          logoSrc: "../assets/img/case-logo-19.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-19.png",
           active: false,
           directions: [2,6]
         },
         {
-          imgSrc: "../assets/img/case-img-20.png",
+          imgSrc: "/_nuxt/assets/img/case-img-20.png",
           text: "Разработка сайта международного производителя продуктов питания",
-          logoSrc: "../assets/img/case-logo-20.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-20.png",
           active: false,
           directions: [2,4]
         },
         {
-          imgSrc: "../assets/img/case-img-21.png",
+          imgSrc: "/_nuxt/assets/img/case-img-21.png",
           text: "Развитие личного бренда владельца инвестиционной компании в Германии",
-          logoSrc: "../assets/img/case-logo-21.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-21.png",
           active: false,
           directions: [3,5]
         },
         {
-          imgSrc: "../assets/img/case-img-22.png",
+          imgSrc: "/_nuxt/assets/img/case-img-22.png",
           text: "Комплексный маркетинг винодельни акционера ВТБ",
-          logoSrc: "../assets/img/case-logo-22.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-22.png",
           active: false,
           directions: [1,6]
         },
         {
-          imgSrc: "../assets/img/case-img-23.png",
+          imgSrc: "/_nuxt/assets/img/case-img-23.png",
           text: "Комплексный маркетинг винных брендов Долины Лефкадия",
-          logoSrc: "../assets/img/case-logo-23.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-23.png",
           active: false,
           directions: [1,6]
         },
         {
-          imgSrc: "../assets/img/case-img-24.png",
+          imgSrc: "/_nuxt/assets/img/case-img-24.png",
           text: "Запуск закрытого клуба предпринимателей в рамках ПМЭФ",
-          logoSrc: "../assets/img/case-logo-24.png",
+          logoSrc: "/_nuxt/assets/img/case-logo-24.png",
           active: false,
           directions: [2,5]
         }

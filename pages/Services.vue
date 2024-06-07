@@ -4,7 +4,8 @@
       <div class="container__elem container__elem--12">
         <div class="projects__inner">
           <h1 class="projects__title">Подчеркиваем направление вашего успеха</h1>
-          <div :class="['projects__items', {'projects__items--projects': activePage == 'projects'}, {'projects__items--services': activePage == 'services'}]">
+          <div
+            :class="['projects__items', {'projects__items--projects': activePage == 'projects'}, {'projects__items--services': activePage == 'services'}]">
             <div @click="openPage('projects')" :class="['projects__item', { active: activePage == 'projects' }]">
               <p class="projects__item-title">ПРОЕКТЫ</p>
               <p class="projects__item-text">
@@ -39,13 +40,173 @@
             </button>
           </div>
           <div class="cases__content">
-            <div v-for="(caseItem, index) in cases" :key="index"
-              :class="['cases__content-item', { active: isCaseActive(caseItem, index) }]">
-              <img :src="caseItem.imgSrc" alt="" class="cases__content-img">
+            <div class="cases__content-item active" data-directions="[2,6,5]">
+              <img src="../assets/img/case-img-1.png" alt="" class="cases__content-img">
               <p class="cases__content-text">
-                {{ caseItem.text }}
+                PR и маркетинговое сопровождение цифровой экосистемы КорпСофт24
               </p>
-              <img :src="caseItem.logoSrc" alt="" class="cases__content-logo">
+              <img src="../assets/img/case-logo-1.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[6]">
+              <img src="../assets/img/case-img-2.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                SMM-стратегия для банка
+              </p>
+              <img src="../assets/img/case-logo-2.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item active" data-directions="[2,6]">
+              <img src="../assets/img/case-img-3.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Брендбук и дизайн-поддержка крупного IT-интегратора
+              </p>
+              <img src="../assets/img/case-logo-3.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item active" data-directions="[5,6]">
+              <img src="../assets/img/case-img-4.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Комплексный маркетинг для новой платежной системы
+              </p>
+              <img src="../assets/img/case-logo-4.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2,4,6]">
+              <img src="../assets/img/case-img-5.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Брендбук, продвижение и продакшн сети кофеен в Москве
+              </p>
+              <img src="../assets/img/case-logo-5.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[]">
+              <img src="../assets/img/case-img-6.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Фирменный стиль для компании ПраймСур
+              </p>
+              <img src="../assets/img/case-logo-6.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2,4]">
+              <img src="../assets/img/case-img-7.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Разработка сайта нового бренда энергетиков
+              </p>
+              <img src="../assets/img/case-logo-7.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[3,5,6]">
+              <img src="../assets/img/case-img-8.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                +20 000 подписчиков личного блога в Telegram акционера крупной компании
+              </p>
+              <img src="../assets/img/case-logo-8.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item active" data-directions="[3,6,5]">
+              <img src="../assets/img/case-img-9.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Реклама в Telegram крупнейшего производителя продуктов питания
+              </p>
+              <img src="../assets/img/case-logo-9.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item active" data-directions="[6]">
+              <img src="../assets/img/case-img-10.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Таргет VK с миллиоными охватами для бренда Hi!
+              </p>
+              <img src="../assets/img/case-logo-10.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item active" data-directions="[2]">
+              <img src="../assets/img/case-img-11.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Разработка дизайна POSM для лаборатории эффективных кормов
+              </p>
+              <img src="../assets/img/case-logo-11.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2]">
+              <img src="../assets/img/case-img-12.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Дизайн-сопровождение инновационного центра Бирюч
+              </p>
+              <img src="../assets/img/case-logo-12.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[3,6]">
+              <img src="../assets/img/case-img-13.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Развитие с 0 до 3 700+ подписчиков образовательного портала Вавилон за 3 месяца
+              </p>
+              <img src="../assets/img/case-logo-13.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[3,5]">
+              <img src="../assets/img/case-img-14.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Статья на VC.ru и продвижение B2B-бота в Telegram
+              </p>
+              <img src="../assets/img/case-logo-14.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[1,2,3,6]">
+              <img src="../assets/img/case-img-15.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Комплексный маркетинг для бренда концентратов из алтайских трав
+              </p>
+              <img src="../assets/img/case-logo-15.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[3,6]">
+              <img src="../assets/img/case-img-16.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Развитие с 0 до 12 000+ подписчиков канала частной клиники
+              </p>
+              <img src="../assets/img/case-logo-16.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[6]">
+              <img src="../assets/img/case-img-17.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                SMM-продвижение производителя сыров Kalleh
+              </p>
+              <img src="../assets/img/case-logo-17.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[6]">
+              <img src="../assets/img/case-img-18.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                SMM-продвижение бренда Sorbon в России
+              </p>
+              <img src="../assets/img/case-logo-18.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2,6]">
+              <img src="../assets/img/case-img-19.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Комплексный маркетинг маркетплейса полезных продуктов
+              </p>
+              <img src="../assets/img/case-logo-19.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2,4]">
+              <img src="../assets/img/case-img-20.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Разработка сайта международного производителя продуктов питания
+              </p>
+              <img src="../assets/img/case-logo-20.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[3,5]">
+              <img src="../assets/img/case-img-21.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Развитие личного бренда владельца инвестиционной компании в Германии
+              </p>
+              <img src="../assets/img/case-logo-21.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[1,6]">
+              <img src="../assets/img/case-img-22.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Комплексный маркетинг винодельни акционера ВТБ
+              </p>
+              <img src="../assets/img/case-logo-22.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[1,6]">
+              <img src="../assets/img/case-img-23.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Комплексный маркетинг винных брендов Долины Лефкадия
+              </p>
+              <img src="../assets/img/case-logo-23.png" alt="" class="cases__content-logo">
+            </div>
+            <div class="cases__content-item" data-directions="[2,5]">
+              <img src="../assets/img/case-img-24.png" alt="" class="cases__content-img">
+              <p class="cases__content-text">
+                Запуск закрытого клуба предпринимателей в рамках ПМЭФ
+              </p>
+              <img src="../assets/img/case-logo-24.png" alt="" class="cases__content-logo">
             </div>
           </div>
           <button class="cases__more" @click="moreBtn()">ПОСМОТРЕТЬ ЕЩЁ</button>
@@ -57,47 +218,47 @@
     <div class="container">
       <div class="container__elem container__elem--12">
         <div class="services-content__items">
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">Продвижение <br> Telegram</p>        
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">Digital- <br>маркетинг</p>        
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">Дизайн- <br>студия</p>        
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">Продакшн- <br>студия</p>          
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">WEB-студия</p>        
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">PR и  <br>Спецпроекты</p>          
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">подписки</p>          
-          </div>
-        </a>
-        <a href="#" class="services-content__item">
-          <div class="services-content__item-inner">
-            <p class="services-content__item-title">Консультации <br> обучение </p>          
-          </div>
-        </a>
-      </div>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">Продвижение <br> Telegram</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">Digital- <br>маркетинг</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">Дизайн- <br>студия</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">Продакшн- <br>студия</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">WEB-студия</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">PR и <br>Спецпроекты</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">подписки</p>
+            </div>
+          </a>
+          <a href="#" class="services-content__item">
+            <div class="services-content__item-inner">
+              <p class="services-content__item-title">Консультации <br> обучение </p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -169,180 +330,10 @@ export default {
         { id: 5, name: 'PR и Спецпроекты' },
         { id: 6, name: 'Digital-маркетинг' }
       ],
-      cases: [
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-1.png",
-          text: "PR и маркетинговое сопровождение цифровой экосистемы КорпСофт24",
-          logoSrc: "/_nuxt/assets/img/case-logo-1.png",
-          active: true,
-          directions: [2,6,5]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-2.png",
-          text: "SMM-стратегия для банка",
-          logoSrc: "/_nuxt/assets/img/case-logo-2.png",
-          active: false,
-          directions: [6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-3.png",
-          text: "Брендбук и дизайн-поддержка крупного IT-интегратора",
-          logoSrc: "/_nuxt/assets/img/case-logo-3.png",
-          active: true,
-          directions: [2,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-4.png",
-          text: "Комплексный маркетинг для новой платежной системы",
-          logoSrc: "/_nuxt/assets/img/case-logo-4.png",
-          active: true,
-          directions: [5,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-5.png",
-          text: "Брендбук, продвижение и продакшн сети кофеен в Москве",
-          logoSrc: "/_nuxt/assets/img/case-logo-5.png",
-          active: false,
-          directions: [2,4,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-6.png",
-          text: "Фирменный стиль для компании ПраймСур",
-          logoSrc: "/_nuxt/assets/img/case-logo-6.png",
-          active: false,
-          directions: []
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-7.png",
-          text: "Разработка сайта нового бренда энергетиков",
-          logoSrc: "/_nuxt/assets/img/case-logo-7.png",
-          active: false,
-          directions: [2,4]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-8.png",
-          text: "+20 000 подписчиков личного блога в Telegram акционера крупной компании",
-          logoSrc: "/_nuxt/assets/img/case-logo-8.png",
-          active: false,
-          directions: [3,5,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-9.png",
-          text: "Реклама в Telegram крупнейшего производителя продуктов питания",
-          logoSrc: "/_nuxt/assets/img/case-logo-9.png",
-          active: true,
-          directions: [3,6,5]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-10.png",
-          text: "Таргет VK с миллиоными охватами для бренда Hi!",
-          logoSrc: "/_nuxt/assets/img/case-logo-10.png",
-          active: true,
-          directions: [6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-11.png",
-          text: "Разработка дизайна POSM для лаборатории эффективных кормов",
-          logoSrc: "/_nuxt/assets/img/case-logo-11.png",
-          active: true,
-          directions: [2]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-12.png",
-          text: "Дизайн-сопровождение инновационного центра Бирюч",
-          logoSrc: "/_nuxt/assets/img/case-logo-12.png",
-          active: false,
-          directions: [2]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-13.png",
-          text: "Развитие с 0 до 3 700+ подписчиков образовательного портала Вавилон за 3 месяца",
-          logoSrc: "/_nuxt/assets/img/case-logo-13.png",
-          active: false,
-          directions: [3,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-14.png",
-          text: "Статья на VC.ru и продвижение B2B-бота в Telegram",
-          logoSrc: "/_nuxt/assets/img/case-logo-14.png",
-          active: false,
-          directions: [3,5]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-15.png",
-          text: "Комплексный маркетинг для бренда концентратов из алтайских трав",
-          logoSrc: "/_nuxt/assets/img/case-logo-15.png",
-          active: false,
-          directions: [1,2,3,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-16.png",
-          text: "Развитие с 0 до 12 000+ подписчиков канала частной клиники",
-          logoSrc: "/_nuxt/assets/img/case-logo-16.png",
-          active: false,
-          directions: [3,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-17.png",
-          text: "SMM-продвижение производителя сыров Kalleh",
-          logoSrc: "/_nuxt/assets/img/case-logo-17.png",
-          active: false,
-          directions: [6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-18.png",
-          text: "SMM-продвижение бренда Sorbon в России",
-          logoSrc: "/_nuxt/assets/img/case-logo-18.png",
-          active: false,
-          directions: [6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-19.png",
-          text: "Комплексный маркетинг маркетплейса полезных продуктов",
-          logoSrc: "/_nuxt/assets/img/case-logo-19.png",
-          active: false,
-          directions: [2,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-20.png",
-          text: "Разработка сайта международного производителя продуктов питания",
-          logoSrc: "/_nuxt/assets/img/case-logo-20.png",
-          active: false,
-          directions: [2,4]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-21.png",
-          text: "Развитие личного бренда владельца инвестиционной компании в Германии",
-          logoSrc: "/_nuxt/assets/img/case-logo-21.png",
-          active: false,
-          directions: [3,5]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-22.png",
-          text: "Комплексный маркетинг винодельни акционера ВТБ",
-          logoSrc: "/_nuxt/assets/img/case-logo-22.png",
-          active: false,
-          directions: [1,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-23.png",
-          text: "Комплексный маркетинг винных брендов Долины Лефкадия",
-          logoSrc: "/_nuxt/assets/img/case-logo-23.png",
-          active: false,
-          directions: [1,6]
-        },
-        {
-          imgSrc: "/_nuxt/assets/img/case-img-24.png",
-          text: "Запуск закрытого клуба предпринимателей в рамках ПМЭФ",
-          logoSrc: "/_nuxt/assets/img/case-logo-24.png",
-          active: false,
-          directions: [2,5]
-        }
-      ]
     };
   },
   methods: {
-    openPage(page){
+    openPage(page) {
       this.activePage = page;
       const newUrl = `${window.location.origin}/${page}`;
       window.history.pushState({ path: newUrl }, '', newUrl);
@@ -355,25 +346,36 @@ export default {
         this.activeDirections.splice(index, 1);
       }      
       if (this.activeDirections.length == 6){
-        document.querySelector('.cases__more').style.display = 'none' 
+        document.querySelector('.cases__more').style.display = 'none'; 
       } else {
-        document.querySelector('.cases__more').style.display = 'flex' 
+        document.querySelector('.cases__more').style.display = 'flex'; 
       }
+      this.updateCaseVisibility();
     },
-    isCaseActive(caseItem, index) {
-      // Если нет активных направлений, отображаем первые шесть кейсов      
-      if (this.activeDirections.length == 0 || this.activeDirections == undefined) {        
-        return index < 6;
+    isCaseActive(caseElement) {
+      const directions = JSON.parse(caseElement.dataset.directions);
+      // Если нет активных направлений, отображаем первые шесть кейсов
+      if (this.activeDirections.length == 0) {
+        return Array.from(document.querySelectorAll('.cases__content-item')).indexOf(caseElement) < 6;
       }
       // Иначе отображаем кейсы, которые соответствуют активным направлениям
-      return caseItem.directions.some(direction => this.activeDirections.includes(direction));
+      return directions.some(direction => this.activeDirections.includes(direction));
     },
-    moreBtn(){
-      this.activeDirections = [1,2,3,4,5,6]
+    updateCaseVisibility() {
+      const caseElements = document.querySelectorAll('.cases__content-item');
+      caseElements.forEach(caseElement => {
+        caseElement.classList.toggle('active', this.isCaseActive(caseElement));
+      });
+    },
+    moreBtn() {
+      this.activeDirections = [1, 2, 3, 4, 5, 6];
       document.querySelector('.cases__more').style.display = 'none';
+     
+  this.updateCaseVisibility();
     }
   },
   mounted() {
+    this.updateCaseVisibility();
     document.body.classList.add('light-theme');
   }
 };

@@ -207,25 +207,7 @@
   </section>
   <section class="three">
     <div class="three__inner">
-      <img src="../assets/img/three-video.png" alt="" />
-      <button class="three__play" @click="openPopup">
-        <i>
-          <svg
-            width="140"
-            height="140"
-            viewBox="0 0 140 140"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="70" cy="70" r="70" fill="#622DE1" />
-            <path
-              d="M87.9312 68.5308C90.5978 70.0704 90.5978 73.9194 87.9312 75.459L64.9311 88.738C62.2645 90.2776 58.9311 88.3531 58.9311 85.2739V58.7158C58.9311 55.6366 62.2645 53.7121 64.9311 55.2517L87.9312 68.5308Z"
-              fill="white"
-            />
-          </svg>
-        </i>
-      </button>
-      <PopupComponent ref="popup"></PopupComponent>
+      <PopupComponent videoId="vDxkstcwqmM"></PopupComponent>
     </div>
   </section>
   <section class="four">
@@ -534,9 +516,6 @@ export default {
     };
   },
   methods: {
-    openPopup() {
-      this.$refs.popup.openPopup(); // Вызов метода openPopup из компонента Popup
-    },
     async uploadForm() {
       const formData = new FormData();
       formData.append(

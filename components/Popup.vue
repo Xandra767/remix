@@ -1,49 +1,101 @@
 <template>
-  <div class="popup-overlay" v-if="showPopup">
-    <div class="popup-content">
-      <video controls muted style="width: 100%; height: 100%;"
-        src="https://dl.dropboxusercontent.com/s/8lu2i1s2ahx41x7/Шоурил.mp4?dl=0%22%20type=%27video/mp4" loop
-        autoplay></video>
-      <button class="popup-btn" @click="closePopup">
-        <i>
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="20" fill="white" />
-            <mask id="mask0_9_814" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="9" y="8" width="23"
-              height="24">
-              <rect x="9" y="8" width="23" height="24" fill="#D9D9D9" />
-            </mask>
-            <g mask="url(#mask0_9_814)">
-              <mask id="mask1_9_814" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1" y="-1" width="43"
-                height="43">
-                <rect x="-1" y="20.2132" width="30" height="30" transform="rotate(-45 -1 20.2132)" fill="#D9D9D9" />
-              </mask>
-              <g mask="url(#mask1_9_814)">
-                <line x1="0.707076" y1="0.292893" x2="36.7071" y2="36.2929" stroke="#622DE1" stroke-width="2" />
-                <line x1="3.29514" y1="37.2906" x2="36.5083" y2="4.29061" stroke="#622DE1" stroke-width="2" />
-              </g>
-            </g>
-          </svg>
-
-        </i>
-      </button>
-    </div>
+  <div ref="videoContainer">
+    <iframe 
+      :src="videoUrl" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen
+      @load="checkYTAPI"
+    ></iframe>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    videoId: {
+      type: String,
+      required: true
+    }
+  },
   data() {
     return {
-      showPopup: false,
+      observer: null,
+      isYTAPILoaded: false
     };
   },
+  computed: {
+    videoUrl() {
+      return `https://www.youtube.com/embed/${this.videoId}?enablejsapi=1&autoplay=0&mute=1`;
+    }
+  },
+  mounted() {
+    this.loadYTAPI();
+    this.createObserver();
+  },
+  beforeDestroy() {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
+  },
   methods: {
-    openPopup() {
-      this.showPopup = true;
+    loadYTAPI() {
+      if (typeof YT === 'undefined' || typeof YT.Player === 'undefined') {
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        window.onYouTubeIframeAPIReady = this.onYTAPIReady;
+      } else {
+        this.isYTAPILoaded = true;
+      }
     },
-    closePopup() {
-      this.showPopup = false;
+    onYTAPIReady() {
+      this.isYTAPILoaded = true;
+    },
+    onPlayerStateChange(event) {
+      if (event.data === YT.PlayerState.ENDED) {
+        event.target.playVideo();
+      }
+    },
+    createObserver() {
+      this.observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && this.isYTAPILoaded) {
+            this.playVideo();
+          }
+        });
+      });
+
+      this.observer.observe(this.$refs.videoContainer);
+    },
+    playVideo() {
+      if (this.player) {
+        this.player.playVideo();
+      } else {
+        const iframe = this.$refs.videoContainer.querySelector('iframe');
+        this.player = new YT.Player(iframe, {
+          events: {
+            'onReady': event => {
+              event.target.playVideo();
+            },
+            'onStateChange': this.onPlayerStateChange
+          }
+        });
+      }
+    },
+    checkYTAPI() {
+      if (this.isYTAPILoaded) {
+        this.playVideo();
+      }
     }
   }
 };
 </script>
+
+<style scoped>
+/* Добавьте любые стили, если это необходимо */
+</style>

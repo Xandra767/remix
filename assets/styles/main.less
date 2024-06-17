@@ -665,62 +665,13 @@ html.scroll-none{
     transform: translateY(200px);    
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;
-    &::after{
-      position: absolute;
-      content: "";
-      width: 100%;
+    iframe{
+      width: 100vw;
       height: 100vh;    
-      background: rgba(196, 196, 196, 0.01);
-      box-shadow: 0px 82px 68px -64px rgba(99, 46, 226, 0.50) inset, 0px 1px 40px 0px rgba(0, 0, 0, 0.20) inset, 0px 7px 11px -4px rgba(99, 46, 226, 0.50) inset, 0px -82px 68px -64px rgba(99, 46, 226, 0.50) inset;
-      left: 0;
-      top: 0;
       .breakpoint(@media-small, {
         height: 50dvh;
       });
     }
-  }
-  img{
-  
-    width: 100vw;
-    height: 100vh;
-    .breakpoint(@media-small, {
-        height: 50dvh;
-    });
-  }
-  &__play{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-  }
-  .popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-  }
-  
-  .popup-content {
-    width: 95vw;
-    height: 80dvh;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-    .breakpoint(@media-small, {
-        height: 50dvh;
-    });
-  }
-  .popup-btn{
-    position: absolute;
-    top: -45px;
-    right: 5px;
   }
 }
 
